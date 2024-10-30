@@ -1,7 +1,8 @@
 /* New added by Chien */
 #logo {
-  width: 55%; /* Set width */
-  height: 55%; /* Set height */
+  width: 50%; /* Set width */
+  height: 50%; /* Set height */
+  padding: none;
 }
 /* New added by Chien */
 
@@ -96,6 +97,17 @@ body {
 }
 #user a {
   color: rgb(29, 29, 29);
+}
+.btn-transparent {
+  background-color: transparent;
+  border: none;
+}
+.btn-transparent:hover {
+  background-color: #fff490;
+}
+.userIcon {
+  width: 50%;
+  height: 50%;
 }
 
 /* ----------------------------- MEDIA QUERY --------------------------- */
